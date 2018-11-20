@@ -22,10 +22,10 @@ URxvt.secondaryScroll: 0
 URxvt.secondaryWheel: 1
 
 ! disable scrollbar
-URxvt.scrollBar: true
+URxvt.scrollBar: false
 
 ! set font
-URxvt.font: xft:fantasque sans mono:size=12
+URxvt.font: xft:fantasque sans mono:size=10
 
 ! reduce font spacing
 Urxvt.letterSpace: -1
