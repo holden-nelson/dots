@@ -1,0 +1,35 @@
+!!!!!
+!
+! Xresources : Configuration for various X programs
+! Symlink to ~/.Xresources
+!
+!!!!!
+
+!! URxvt Settings
+
+! do not scroll with output
+URxvt.scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt.scrollWithBuffer: true
+
+! scroll back to bottom on keypress
+URxvt.scrollTtyKeypress: true
+
+! disable scrollback buffer in secondary screen (such as less)
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+URxvt.secondaryWheel: 1
+
+! set font
+URxvt.font: xft:fantasque sans mono:size=14
+
+! reduce font spacing
+Urxvt.letterSpace: -1
+
+
+
+
+
+
+
