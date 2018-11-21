@@ -14,4 +14,5 @@
 # set dpi
 xrandr --dpi 118
 
-
+# set solid color background
+xsetroot -solid "#689d6a"
