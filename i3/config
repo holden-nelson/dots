@@ -194,5 +194,6 @@ client.placeholder      #282828 #282828 #282828 #282828   #282828
 # Smart popups
 popup_during_fullscreen smart
 
-
+# Desktop background
+exec --no-startup-id xsetroot -solid "#689d6a"
 
