@@ -5,13 +5,9 @@
 # 
 #####
 
-# Powerline prompt
-source /etc/bash_completion.d/git-prompt
-source ~/build/bash-powerline-shell/ps1_prompt
-
-# LS Colors
-eval $( dircolors -b $HOME/build/LS_COLORS/LS_COLORS )
-alias ls='ls --color'
+# colorls
+alias ls='colorls'
+source $(dirname $(gem which colorls)/tab_complete.sh
 
 # diff colors
 alias diff='diff --color=auto'
@@ -26,6 +22,3 @@ man() {
     LESS_TERMCAP_us=$'\e[01;32m' \
     command man "$@"
 }
-
-# ping colors
-alias ping='prettyping'
