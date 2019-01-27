@@ -1,0 +1,10 @@
+### colorls
+alias ls='colorls'
+#tab completion
+source $(dirname $(gem which colorls))/tab_complete.sh
+
+### diff colors
+alias diff='diff --color=auto'
+
+### git status
+alias gs='git status'

@@ -5,12 +5,8 @@
 # 
 #####
 
-# colorls
-alias ls='colorls'
-source $(dirname $(gem which colorls))/tab_complete.sh
-
-# diff colors
-alias diff='diff --color=auto'
+# aliases
+source ~/dots/bash/aliases
 
 # man colors
 man() {
