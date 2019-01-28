@@ -14,10 +14,6 @@
 				"priority": 20
 			},
 			{
-				"function": "powerline.segments.common.vcs.stash",
-				"priority": 20
-			},
-			{
 				"function": "powerline.segments.shell.jobnum",
 				"priority": 20
 			},

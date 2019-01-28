@@ -1,0 +1,19 @@
+{
+	"name": "Nord",
+	"groups": {
+		"cwd": 				{ "fg": "nord:nord4", "bg": "nord:nord0", "attrs": [] },
+		"cwd:current_folder":		{ "fg": "nord:nord6", "bg": "nord:nord0", "attrs": [] },
+		"cwd:divider":			{ "fg": "nord:nord6", "bg": "nord:nord0", "attrs": [] },
+		"branch": 			{ "fg": "nord:nord0", "bg": "nord:nord14", "attrs": [] },
+		"information:additional": 	{ "fg": "nord:nord4", "bg": "nord:nord0", "attrs": [] },
+		"information:regular":		{ "fg": "nord:nord4", "bg": "nord:nord0", "attrs": [] },
+		"information:highlighted":	{ "fg": "nord:nord0", "bg": "nord:nord10", "attrs": [] },
+		"information:priority":		{ "fg": "nord:nord0", "bg": "nord:nord12", "attrs": [] },
+		"warning:regular":		{ "fg": "nord:nord6", "bg": "nord:nord11", "attrs": [] },
+		"critical:failure":		{ "fg": "nord:nord6", "bg": "nord:nord11", "attrs": [] },
+		"critical:success":		{ "fg": "nord:nord6", "bg": "nord:nord7", "attrs": [] },
+		"background":			{ "fg": "nord:nord4", "bg": "nord:nord0", "attrs": [] },
+		"background:divider":		{ "fg": "nord:nord6", "bg": "nord:nord0", "attrs": [] }
+	
+	}
+}
