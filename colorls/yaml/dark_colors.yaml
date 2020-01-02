@@ -1,7 +1,7 @@
 # Main Colors
 unrecognized_file: yellow
-recognized_file:   blue
-dir:               white
+recognized_file:   white
+dir:               blue
 
 # Link
 dead_link: red
@@ -29,7 +29,7 @@ user:   green
 tree:   cyan
 empty:  yellow
 error:  red
-normal: white
+normal: black
 
 # Git
 addition:     cyan
