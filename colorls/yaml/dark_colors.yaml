@@ -37,3 +37,6 @@ modification: yellow
 deletion:     red
 untracked:    blue
 unchanged:    white
+
+# file types
+.yaml:        red

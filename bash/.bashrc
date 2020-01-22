@@ -6,7 +6,7 @@
 #####
 
 # aliases
-source ~/dots/bash/aliases
+source ~/Dev/Dots/bash/aliases
 
 # man colors
 man() {
@@ -19,11 +19,8 @@ man() {
     command man "$@"
 }
 
-# Powerline
-powerline-daemon -q
-POWERLINE_BASH_CONTINUATION=1
-POWERLINE_BASH_SELECT=1
-source /usr/local/lib/python3.7/site-packages/powerline/bindings/bash/powerline.sh
+# starship prompt
+eval "$(starship init bash)"
 
 # Required after installing Rbenv by homebrew
 eval "$(rbenv init -)"
