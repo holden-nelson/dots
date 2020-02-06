@@ -25,5 +25,9 @@ eval "$(starship init bash)"
 # Required after installing Rbenv by homebrew
 eval "$(rbenv init -)"
 
+# Required after installing Pyenv by homebrew
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
 # enable shell completion for tldr
 complete -W "$(tldr 2>/dev/null --list)" tldr
