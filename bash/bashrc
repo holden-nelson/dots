@@ -2,8 +2,11 @@
 #
 # .bashrc : sourced by bash at startup
 # symlink to ~/.bashrc
-# 
+#
 #####
+
+# Required after installing Rbenv by homebrew
+eval "$(rbenv init -)"
 
 # aliases
 source ~/Dev/Dots/bash/aliases
@@ -22,12 +25,16 @@ man() {
 # starship prompt
 eval "$(starship init bash)"
 
-# Required after installing Rbenv by homebrew
-eval "$(rbenv init -)"
-
 # Required after installing Pyenv by homebrew
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 
 # enable shell completion for tldr
 complete -W "$(tldr 2>/dev/null --list)" tldr
+
+# tcl-tk requirements
+export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/tcl-tk/lib"
+export CPPFLAGS="-I/usr/local/opt/tcl-tk/include"
+export PKG_CONFIG_PATH="/usr/local/opt/tcl-tk/lib/pkgconfig"
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
